@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Video Streaming</title>
+    <link rel="stylesheet" href="vod.css">
+</head>
+<body>
+    <header>
+        <h1>My Video Streaming Site</h1>
+    </header>
+    <video id="video1" width="600" controls style="display:none;">
+        <source src="videos/test.mp4" type="video/mp4">
+    </video>
+    
+
+    <div class="video-controls">
+        <button onclick="window.location.href='ec2.html';">
+            EC2
+        </button>
+        <button onclick="window.location.href='S3.html';">
+            S3
+        </button>
+        <button onclick="window.location.href='IAM.html';">
+            IAM
+        </button>
+        <button onclick="window.location.href='cloudwatch.html';">
+            CLOUDWATCH
+        </button>
+        <button onclick="window.location.href='vpc.html';">
+            VPC
+        </button>
+    </div>
+
+    <script src="vod.js"></script>
+</body>
+</html>
